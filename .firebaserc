@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "pfe2022-a13ec": {
+      "hosting": {
+        "l-voiture": [
+          "pfe2022-a13ec"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "pfe2022-a13ec"
+  }
+}
