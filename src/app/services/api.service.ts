@@ -10,7 +10,9 @@ import firebase from 'firebase/compat/app';
 export class ApiService {
   constructor(public auth: AngularFireAuth) {}
 
-//* ======>gitHub<======== 
+//* ======>gitHub<========
+
+//* ======>new branch<========
   //?=============>Auth<=============================
   addUser(payload: UserAuthPayLoad) {
     let password = payload.password;
