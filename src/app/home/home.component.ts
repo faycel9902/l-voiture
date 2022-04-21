@@ -11,10 +11,10 @@ export class HomeComponent implements OnInit {
 
   constructor(private apiService:ApiService) {
     let user : UserAuthPayLoad = {
-      email:'test3@app.com',
-      password:'123456'
+      email:'test5@app.com',
+      password:'123456'///
     }
-    this.apiService.addUser(user)
+  //  this.apiService.registerUser(user)
    }
 
   ngOnInit(): void {

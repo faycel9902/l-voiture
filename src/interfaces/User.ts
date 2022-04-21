@@ -3,8 +3,12 @@ import { Data } from '@angular/router';
 export interface User {
   id?: any;
   avatar?: string;
-  name?: string;
+  //name?: string;
+  firstName?:string; 
+  lastName?:string ; 
   email?: string;
+  isAdmin?:boolean;
+  createdAt?:any;
 }
 export interface Admin {
   id?: any;

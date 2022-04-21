@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
+import { ApiService } from '../services/api.service';
 @Component({
   selector: 'app-creer',
   templateUrl: './creer.component.html',
@@ -7,9 +8,12 @@ import { Router } from '@angular/router';
 })
 export class CreerComponent implements OnInit {
 
-  constructor() { }
+  constructor(public apiService :ApiService) { }
 
   ngOnInit(): void {
+  }
+  createUser(){
+    
   }
 
 }
